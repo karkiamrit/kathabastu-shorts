@@ -1,0 +1,5 @@
+episodes/*/el/
+episodes/*/still_*.jpg
+episodes/*/scenes/
+episodes/__pycache__/
+__pycache__/
