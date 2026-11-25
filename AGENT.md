@@ -109,7 +109,9 @@ Then `python3 build.py episodes/<slug>` → `episodes/<slug>/video.mp4`.
 2. YouTube (Windsor.ai for Social Media, connector `youtube`, account `122057`):
    `execute_action` `upload_video` with video_url, title, description, tags, category_id "1"
    (Film & Animation), made_for_kids false, privacy_status "public". Record the video id/url.
-3. TikTok: if the Buffer connector is available, use it to post the same video URL with
+3. TikTok (Buffer org `6b0651c02579815fa19b0639`, TikTok channel `6b0653868541f09ecb963490` = kathabastu;
+   `create_post` with schedulingType automatic, mode shareNow, video asset = the raw URL, text = tiktok_caption,
+   metadata.tiktok.isAiGenerated true). If the Buffer connector is available, use it to post the same video URL with
    `tiktok_caption` to the Kathabastu TikTok channel. If Buffer is not connected, send the
    video file and caption to the user instead (SendUserFile + message) so they can post it.
 4. Add the YouTube/TikTok links to index.json, commit, push.
