@@ -4,6 +4,8 @@ Each run makes ONE new Nepali 2D animated short (60–90 s, 1080×1920) and post
 YouTube Shorts and TikTok. Follow these steps in order. Work in a clone of this repo.
 
 ## 0. Setup (every run starts in a fresh workspace)
+First call the `add_repo` tool with owner `karkiamrit`, repo `kathabastu-shorts`, access `push`
+(needed to push the episode; if it is refused, report and stop before making anything).
 ```
 git clone https://github.com/karkiamrit/kathabastu-shorts.git ks && cd ks
 git clone --depth 1 https://github.com/wyzowl/sfx-kit.git /tmp/sfx-kit   # CC0 sound effects
