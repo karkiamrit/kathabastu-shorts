@@ -1,0 +1,27 @@
+{
+ "title": "यदि याक र हात्तीले घर साटे भए?",
+ "scenes": [
+  {"cues": [[0.4, ["n0"]]]},
+  {"cues": [[0.3, ["n1"]], [4.1, ["d1"]]]},
+  {"cues": [[0.3, ["n2"]], [4.1, ["c1"]]]},
+  {"cues": [[0.3, ["n3"]], [3.5, ["d2"]], [6.6, ["c2"]]]},
+  {"cues": [[0.3, ["n4"]], [4.0, ["d3"]]]},
+  {"cues": [[0.3, ["n5"]], [3.5, ["c3"]]]},
+  {"cues": [[0.3, ["n6"]], [3.6, ["d4"]], [6.6, ["c4"]]]},
+  {"cues": [[0.3, ["n7"]], [4.4, ["n8"]]]}
+ ],
+ "sfx": [
+  [0, 0.2, "whoosh-fast-medium", -2], [0, 0.45, "pop-large-in", 0], [0, 1.1, "move-spin", -3], [0, 1.4, "shimmer-medium-sparkle", -4],
+  [1, 0.1, "whoosh-slow-soft", -3], [1, 4.15, "pop-small-in", 0],
+  [2, 0.1, "whoosh-slow-soft", -3], [2, 4.15, "pop-small-in", 0],
+  [3, 0.2, "move-bounce", -4], [3, 3.55, "pop-small-in", 0], [3, 6.6, "click-clap-firm", 0], [3, 6.7, "celebration-popper", -3],
+  [4, 0.1, "whoosh-medium-soft", -3], [4, 3.5, "riser-1s-soft", -4], [4, 4.05, "props-drip", -2],
+  [5, 0.5, "swipe-slow-soft", -3], [5, 3.5, "transform-shrink", -3], [5, 3.55, "pop-small-in", 0],
+  [6, 0.1, "whoosh-slow-soft", -3], [6, 3.65, "pop-small-in", 0], [6, 6.6, "shimmer-medium-bright", -3],
+  [7, 0.3, "shimmer-long-soft", -4], [7, 4.4, "pop-large-in", 0], [7, 4.5, "sting-warm-long", -1]
+ ],
+ "page_turn": false,
+ "drone": true,
+ "bells": [[0, 0.3], [3, 6.6], [7, 4.4]],
+ "flute": [[1, 0.3, 8.0], [6, 0.3, 10.0], [7, 0.3, 4.3]]
+}

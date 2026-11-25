@@ -1,2 +1,30 @@
-[{"slug":"2026-11-24-krishna-ramayan","date":"2026-11-24","title":"यदि कृष्णजी रामायणमा रामको सट्टा भएको भए?","concept":"What-if: Krishna in place of Ram in the Ramayan, comic-book style","style":"comic"},
- {"slug":"2026-11-17-nemraj","date":"2026-11-17","title":"नेमराज: गल्लीदेखि दशरथसम्म","concept":"What if a world-class footballer was born in a Nepali village (original character Nemraj)","style":"folk-art","note":"source not in repo"}]
+[
+ {
+  "slug": "2026-11-25-yak-hatti",
+  "date": "2026-11-25",
+  "title": "यदि याक र हात्तीले घर साटे भए?",
+  "concept": "What-if: a Himalayan yak (Dorje) and a Terai elephant (Champa) swap homes for a week; heat vs cold comedy, ends in friendship",
+  "style": "folk-art",
+  "references": [
+   "Bandar Apna Dost (India) – recurring animal-character story shorts",
+   "Maha Cartoon TV – Hindi moral cartoon stories",
+   "Nepal Tourism Board TikTok campaign (Nov 2026) – Himalaya/Terai destinations",
+   "Kathabastu Krishna 'what if' episode – own format"
+  ]
+ },
+ {
+  "slug": "2026-11-24-krishna-ramayan",
+  "date": "2026-11-24",
+  "title": "यदि कृष्णजी रामायणमा रामको सट्टा भएको भए?",
+  "concept": "What-if: Krishna in place of Ram in the Ramayan, comic-book style",
+  "style": "comic"
+ },
+ {
+  "slug": "2026-11-17-nemraj",
+  "date": "2026-11-17",
+  "title": "नेमराज: गल्लीदेखि दशरथसम्म",
+  "concept": "What if a world-class footballer was born in a Nepali village (original character Nemraj)",
+  "style": "folk-art",
+  "note": "source not in repo"
+ }
+]
