@@ -19,6 +19,30 @@ A typical episode uses 700–1,000 characters. If `remaining < 1500`, STOP: post
 make nothing, and tell the user in one line that this run was skipped for credits and when
 they reset (`next_character_count_reset_unix`). The next scheduled run tries again.
 
+## 1b. Unfinished series first (owner request, 2026-11-28)
+Read `episodes/series.json`. If any series has `"status": "in_progress"`, this run makes its
+`next_part` and nothing else: follow that part's `plan`, keep the `canon`, cast/voices and
+`style` exactly (copy the previous part's story.js and reuse its character/background
+functions so characters look identical), show a `भाग N` badge, open with a 2-second recap
+hook, and end on a cliffhanger + "भाग N+1 चाँडै" unless it is the final part. Title format:
+`<series title> भाग N | <English> Part N #shorts`. After posting, bump `next_part`, add the
+part to `parts`, and set `"status": "complete"` after the last part. Skip trend research
+(step 2) for a series part, but still obey every content rule.
+
+## 1c. What makes a Kathabastu story (owner feedback, 2026-11-28)
+Stories must be ENGAGING, not plain "two friends chat, the end". Rotate genres across
+episodes and check `index.json` so the last 3 episodes are not the same genre:
+suspense / mild horror (spooky, never gory), thriller / mystery with a twist, folk tale or
+mythology retold reverently, festival / cultural story, "यदि … भए?" what-if comedy,
+children's fable with a clever twist, heartfelt drama. Every story needs: a hook question
+or shock in the first 2 s, rising stakes or a mystery, at least one surprise/twist, and a
+payoff (or cliffhanger). Visual mood must match the genre (e.g. night palette, fog,
+flicker, spotlight for horror; bright folk-art for comedy).
+Multi-part: when a story needs it (roughly 1 in 3–4 new stories, not always), plan a
+series of 2–5 parts up front: write every part's plan into `episodes/series.json`
+(same schema as `antim-bus`), make part 1 now, and the next scheduled runs continue it.
+Each part must stand on its own as a satisfying 60–90 s watch.
+
 ## 2. Research what is trending (10–15 min of searching, no more)
 - WebSearch (several queries, mode "standard", "extended" if thin): trending animated / 2D /
   cartoon YouTube Shorts and TikToks in Nepal and India this week; Nepali "what if" shorts;

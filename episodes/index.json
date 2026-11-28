@@ -1,5 +1,24 @@
 [
  {
+  "slug": "2026-11-28-antim-bus-1",
+  "date": "2026-11-28",
+  "title": "रातको अन्तिम बस — भाग १",
+  "concept": "Series part 1/3 (manual request): foggy Mugling road, last night bus, a mysterious old woman asks for a stop washed away 20 years ago, shows a 2061 ticket, vanishes when lights die; her basket shakes. Cliffhanger.",
+  "style": "night-thriller",
+  "series": "antim-bus",
+  "part": 1,
+  "manual": true,
+  "references": [
+   "Owner request 2026-11-28: more suspense/horror/thrill, multi-part stories",
+   "Classic Nepali 'bhoot ko katha' night-bus/highway ghost tales (format only)",
+   "Kathabastu cliffhanger + comment-guess CTA (own format)"
+  ],
+  "links": {
+   "tiktok": null,
+   "youtube": null
+  }
+ },
+ {
   "slug": "2026-11-27-yomari",
   "date": "2026-11-27",
   "title": "यदि योमरीले बोल्न सक्थ्यो भने?",

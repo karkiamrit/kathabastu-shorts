@@ -1,0 +1,27 @@
+{
+ "title": "रातको अन्तिम बस — भाग १",
+ "scenes": [
+  {"cues": [[0.4, ["n0"]]]},
+  {"cues": [[0.3, ["n1"]], [4.2, ["d1"]]]},
+  {"cues": [[0.3, ["n2"]], [5.0, ["b1"]]]},
+  {"cues": [[0.4, ["k1"]], [4.0, ["d2"]]]},
+  {"cues": [[0.3, ["n3"]], [3.5, ["k2"]]]},
+  {"cues": [[0.3, ["n4"]], [3.6, ["k3"]]]},
+  {"cues": [[0.3, ["n5"]], [4.0, ["n6"]]]},
+  {"cues": [[0.3, ["n7"]], [3.6, ["n8"]]]}
+ ],
+ "sfx": [
+  [0, 0.1, "reverse-whoosh-long-soft", -4], [0, 0.8, "bass-rumble-long", -6], [0, 1.0, "cinematic-drum-big", -6],
+  [1, 0.1, "whoosh-slow-soft", -4], [1, 4.2, "impact-light-firm", -2],
+  [2, 0.1, "whoosh-slow-soft", -4], [2, 4.2, "mechanical-latch-heavy", -4], [2, 4.9, "bass-sub-drop-short", -6],
+  [3, 0.1, "swipe-slow-soft", -5], [3, 4.0, "impact-deep-soft", -2],
+  [4, 0.1, "foley-paper-slide", -2], [4, 3.6, "boom-hit-soft", -3],
+  [5, 0.3, "digital-interference", -10], [5, 1.5, "riser-1s-soft", -6], [5, 2.8, "mechanical-switch-heavy", -2], [5, 2.85, "cinematic-slam-big", -6], [5, 3.3, "click-toggle-on-soft", -2],
+  [6, 0.3, "bass-rumble-medium", -8], [6, 3.0, "riser-1s-strong", -6], [6, 4.0, "cinematic-metal-big", -4],
+  [7, 0.3, "bass-rumble-long", -8], [7, 3.6, "cinematic-thunder-big", -6], [7, 3.7, "sting-minimal-long", -3]
+ ],
+ "page_turn": false,
+ "drone": true,
+ "bells": [],
+ "flute": []
+}
