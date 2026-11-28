@@ -32,12 +32,165 @@
    {
     "part": 2,
     "title": "भाग २ — टोकरीभित्र",
-    "plan": "Recap hook in 2 s ('टोकरी आफैँ हल्लियो… भित्र के थियो?'). Vikas lifts the red cloth: an old brass lantern lights itself, plus a folded note: 'मोडमा बिस्तारै, कालीखोलामा रोक्नु।' Driver laughs it off, speeds up. Near a blind hairpin bend the lantern flame turns red; Vikas shouts 'बिस्तारै दाइ!'; driver brakes; a truck with no headlights roars past exactly where they would have been (near miss, no crash, no injuries). Silence. In the rear-view mirror the old woman is sitting in her seat again, pointing ahead: 'कालीखोला आयो, बाबु।' Cliffhanger. CTA: 'के उनी भूत हुन् कि रक्षक? भाग ३ मा थाहा पाउनुहोस्!'"
+    "plan": "Recap hook in 2 s ('टोकरी आफैँ हल्लियो… भित्र के थियो?'). Vikas lifts the red cloth: an old brass lantern lights itself, plus a folded note: 'मोडमा बिस्तारै, कालीखोलामा रोक्नु।' Driver laughs it off, speeds up. Near a blind hairpin bend the lantern flame turns red; Vikas shouts 'बिस्तारै दाइ!'; driver brakes; a truck with no headlights roars past exactly where they would have been (near miss, no crash, no injuries). Silence. In the rear-view mirror the old woman is sitting in her seat again, pointing ahead: 'कालीखोला आयो, बाबु।' Cliffhanger. CTA: 'के उनी भूत हुन् कि रक्षक? भाग ३ मा थाहा पाउनुहोस्!'",
+    "script": [
+     [
+      "n0",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "[whispers] टोकरी आफैँ हल्लियो… भित्र के थियो?"
+     ],
+     [
+      "n1",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "विकासले काँप्दै रातो कपडा उचाल्यो।"
+     ],
+     [
+      "n2",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "भित्र थियो पुरानो पित्तलको लालटिन — जुन आफैँ बल्यो!"
+     ],
+     [
+      "k1",
+      "9P6nFewEyR3y0aY0G6Bs",
+      "[shocked] दाइ! लालटिन आफैँ बल्यो! अनि यहाँ एउटा चिट्ठी छ।"
+     ],
+     [
+      "b1",
+      "ljCTqT1biPnI7ZjS5gyi",
+      "[whispers] मोडमा बिस्तारै, कालीखोलामा रोक्नु।"
+     ],
+     [
+      "d1",
+      "VfsxF66VGZk4V1ei06Bi",
+      "[laughs] भूतको चिट्ठी? हामीलाई ढिला भइसक्यो!"
+     ],
+     [
+      "n3",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "बस झन् कुद्यो। अगाडि थियो खतरनाक घुम्ती।"
+     ],
+     [
+      "n4",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "अचानक लालटिनको ज्वाला रातो भयो।"
+     ],
+     [
+      "k2",
+      "9P6nFewEyR3y0aY0G6Bs",
+      "[shouting] बिस्तारै दाइ! बिस्तारै!"
+     ],
+     [
+      "n5",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "ड्राइभरले ब्रेक थिच्यो… अनि बत्तीबिनाको ट्रक सर्लक्क पार भयो।"
+     ],
+     [
+      "d2",
+      "VfsxF66VGZk4V1ei06Bi",
+      "[breathless] एक सेकेन्ड ढिलो भएको भए…"
+     ],
+     [
+      "n6",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "ऐनामा हेर्दा… आमा फेरि आफ्नै सिटमा बसिरहेकी थिइन्।"
+     ],
+     [
+      "b2",
+      "ljCTqT1biPnI7ZjS5gyi",
+      "[softly] कालीखोला आयो, बाबु।"
+     ],
+     [
+      "n7",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "उनी भूत हुन् कि रक्षक? भाग ३ मा थाहा पाउनुहोस्!"
+     ]
+    ],
+    "script_locked": true,
+    "visual_notes": "Lantern = new prop (brass, flame yellow then red). Note = small paper with the line written on it. Hairpin bend: dark truck without headlights rushes past, near miss only, no crash. Final shot: rear-view mirror shows aama seated again."
    },
    {
     "part": 3,
     "title": "भाग ३ — कालीखोला",
-    "plan": "Bus stops in fog where the old stop used to be: only a broken tea-shop sign 'कालीखोला चिया पसल' and a stone bench. The woman steps off and says 'राति बाटो चिप्लो हुन्छ, यात्रुलाई होसियारसाथ पुर्‍याउनू।' Moments later a small landslide of mud and rocks slides onto the road ahead where the bus would have been (shown from a distance, nobody hurt). Driver and Vikas realise she warned them. Vikas finds in the basket a faded newspaper photo: the tea-shop aama who used to warn drivers on rainy nights. Lantern and basket fade away; on the seat lies a fresh 2-rupee ticket. Narrator: 'भन्छन्, अहिले पनि कुहिरो लागेको रात उनी अन्तिम बस कुर्छिन्।' Warm, eerie ending, road-safety undertone. CTA: 'तपाईंले रातको यात्रामा कहिल्यै अनौठो अनुभव गर्नुभएको छ? कमेन्टमा लेख्नुहोस्!' Then mark the series complete."
+    "plan": "Bus stops in fog where the old stop used to be: only a broken tea-shop sign 'कालीखोला चिया पसल' and a stone bench. The woman steps off and says 'राति बाटो चिप्लो हुन्छ, यात्रुलाई होसियारसाथ पुर्‍याउनू।' Moments later a small landslide of mud and rocks slides onto the road ahead where the bus would have been (shown from a distance, nobody hurt). Driver and Vikas realise she warned them. Vikas finds in the basket a faded newspaper photo: the tea-shop aama who used to warn drivers on rainy nights. Lantern and basket fade away; on the seat lies a fresh 2-rupee ticket. Narrator: 'भन्छन्, अहिले पनि कुहिरो लागेको रात उनी अन्तिम बस कुर्छिन्।' Warm, eerie ending, road-safety undertone. CTA: 'तपाईंले रातको यात्रामा कहिल्यै अनौठो अनुभव गर्नुभएको छ? कमेन्टमा लेख्नुहोस्!' Then mark the series complete.",
+    "script": [
+     [
+      "n0",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "[whispers] कालीखोला… जुन ठाउँ बीस वर्षअघि नै हराइसकेको थियो।"
+     ],
+     [
+      "n1",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "कुहिरोमा बस रोकियो। त्यहाँ एउटा भाँचिएको बोर्ड थियो।"
+     ],
+     [
+      "k1",
+      "9P6nFewEyR3y0aY0G6Bs",
+      "[reading slowly] कालीखोला… चिया पसल?"
+     ],
+     [
+      "n2",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "आमा बिस्तारै ओर्लिइन् र फर्केर हेरिन्।"
+     ],
+     [
+      "b1",
+      "ljCTqT1biPnI7ZjS5gyi",
+      "[softly] राति बाटो चिप्लो हुन्छ। यात्रुलाई होसियारसाथ पुर्‍याउनू।"
+     ],
+     [
+      "n3",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "त्यही बेला अगाडिको डाँडाबाट गड्याङगुडुङ आवाज आयो।"
+     ],
+     [
+      "n4",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "माटो र ढुंगा बाटोमा खसे — ठ्याक्कै जहाँ बस पुग्ने थियो।"
+     ],
+     [
+      "d1",
+      "VfsxF66VGZk4V1ei06Bi",
+      "[stunned] उहाँले… हामीलाई बचाउनुभयो।"
+     ],
+     [
+      "n5",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "टोकरीमा पुरानो पत्रिकाको टुक्रा थियो — उनकै फोटोसहित।"
+     ],
+     [
+      "k2",
+      "9P6nFewEyR3y0aY0G6Bs",
+      "[emotional] झरी परेको रात उहाँ ड्राइभरहरूलाई सचेत गराउनुहुन्थ्यो रे…"
+     ],
+     [
+      "n6",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "फर्केर हेर्दा, लालटिन र टोकरी दुवै हराइसकेका थिए।"
+     ],
+     [
+      "n7",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "सिटमा थियो — एउटा नयाँ, दुई रुपैयाँको टिकट।"
+     ],
+     [
+      "n8",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "[whispers] भन्छन्, कुहिरो लागेको रात उनी अझै अन्तिम बस कुर्छिन्।"
+     ],
+     [
+      "n9",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "तपाईंले रातको यात्रामा कहिल्यै अनौठो अनुभव गर्नुभएको छ?"
+     ],
+     [
+      "n10",
+      "y0MwmNFdzDdYeB1EYYkk",
+      "कमेन्टमा लेख्नुहोस्!"
+     ]
+    ],
+    "script_locked": true,
+    "visual_notes": "Broken board 'कालीखोला चिया पसल' and stone bench. Landslide shown from a distance, nobody hurt. Newspaper clipping with an original drawing of aama. Lantern and basket fade out; fresh 2-rupee ticket on the seat."
    }
   ]
  }

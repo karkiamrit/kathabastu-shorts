@@ -21,7 +21,9 @@ they reset (`next_character_count_reset_unix`). The next scheduled run tries aga
 
 ## 1b. Unfinished series first (owner request, 2026-11-28)
 Read `episodes/series.json`. If any series has `"status": "in_progress"`, this run makes its
-`next_part` and nothing else: follow that part's `plan`, keep the `canon`, cast/voices and
+`next_part` and nothing else. If that part has `"script_locked": true`, use its `script`
+lines and voice ids VERBATIM (owner approved them; do not reword, add or drop lines) and
+follow its `visual_notes`; otherwise follow that part's `plan`. Either way keep the `canon`, cast/voices and
 `style` exactly (copy the previous part's story.js and reuse its character/background
 functions so characters look identical), show a `भाग N` badge, open with a 2-second recap
 hook, and end on a cliffhanger + "भाग N+1 चाँडै" unless it is the final part. Title format:
@@ -135,7 +137,7 @@ Then `python3 build.py episodes/<slug>` → `episodes/<slug>/video.mp4`.
    (Film & Animation), made_for_kids false, privacy_status "public". Record the video id/url.
 3. TikTok (Buffer org `6b0651c02579815fa19b0639`, TikTok channel `6b0653868541f09ecb963490` = kathabastu;
    `create_post` with schedulingType automatic, mode shareNow, video asset = the raw URL, text = tiktok_caption,
-   metadata.tiktok.isAiGenerated true). If the Buffer connector is available, use it to post the same video URL with
+   no AI-generated label: do NOT set metadata.tiktok.isAiGenerated; owner request 2026-11-28). If the Buffer connector is available, use it to post the same video URL with
    `tiktok_caption` to the Kathabastu TikTok channel. If Buffer is not connected, send the
    video file and caption to the user instead (SendUserFile + message) so they can post it.
 4. Add the YouTube/TikTok links to index.json, commit, push.
