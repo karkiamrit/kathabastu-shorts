@@ -137,7 +137,7 @@ Then `python3 build.py episodes/<slug>` → `episodes/<slug>/video.mp4`.
    (Film & Animation), made_for_kids false, privacy_status "public". Record the video id/url.
 3. TikTok (Buffer org `6b0651c02579815fa19b0639`, TikTok channel `6b0653868541f09ecb963490` = kathabastu;
    `create_post` with schedulingType automatic, mode shareNow, video asset = the raw URL, text = tiktok_caption,
-   no AI-generated label: do NOT set metadata.tiktok.isAiGenerated; owner request 2026-11-28). If the Buffer connector is available, use it to post the same video URL with
+   metadata.tiktok.isAiGenerated true — keep TikTok's AI label on every post, owner confirmed 2026-11-28). If the Buffer connector is available, use it to post the same video URL with
    `tiktok_caption` to the Kathabastu TikTok channel. If Buffer is not connected, send the
    video file and caption to the user instead (SendUserFile + message) so they can post it.
 4. Add the YouTube/TikTok links to index.json, commit, push.
